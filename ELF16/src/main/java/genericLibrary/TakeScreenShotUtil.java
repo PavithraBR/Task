@@ -9,7 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 /***
  * 
- * @author Sudarshan
+ * @author Pavithra
  *
  */
 public class TakeScreenShotUtil extends BaseTest{
