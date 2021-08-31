@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 /***
  * 
- * @author Sudarshan
+ * @author Pavithra
  *
  */
 public class PropertyFileUtil {
