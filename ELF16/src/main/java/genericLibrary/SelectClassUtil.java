@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 /***
  * 
- * @author Sudarshan
+ * @author Pavithra
  *
  */
 public class SelectClassUtil {
