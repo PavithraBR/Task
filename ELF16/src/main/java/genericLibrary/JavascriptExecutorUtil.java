@@ -5,7 +5,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 /***
  * 
- * @author Sudarshan
+ * @author Pavithra
  *
  */
 public class JavascriptExecutorUtil extends BaseTest{
