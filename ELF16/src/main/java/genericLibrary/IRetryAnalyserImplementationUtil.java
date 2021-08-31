@@ -4,7 +4,7 @@ import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 /***
  * 
- * @author Sudarshan
+ * @author Pavithra
  *
  */
 public class IRetryAnalyserImplementationUtil implements IRetryAnalyzer{
