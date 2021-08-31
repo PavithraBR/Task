@@ -1,7 +1,7 @@
 package genericLibrary;
 /**
  * 
- * @author Sudarshan
+ * @author Pavithra
  *
  */
 public interface IAutoConstants {
