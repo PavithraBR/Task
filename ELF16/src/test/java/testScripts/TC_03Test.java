@@ -42,7 +42,5 @@ public class TC_03Test extends BaseTest {
 		} else {
 			System.err.println("new lead is not created");
 		}
-		Thread.sleep(1000);
-		
 	}
 }
