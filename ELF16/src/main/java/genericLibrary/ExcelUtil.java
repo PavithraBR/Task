@@ -26,8 +26,8 @@ public class ExcelUtil {
 		FileInputStream fis=new FileInputStream(abPath);
 		Workbook workbook = WorkbookFactory.create(fis);
 		Sheet sheet = workbook.getSheet(sheetName);
-		String data = sheet.getRow(rowNumber).getCell(cellNumber).getStringCellValue();
-		return data;
+		String data = sheet.getRow(rowNumber).getCell(cellNumber).toString();
+	    return data;
 	}
 	/**
 	 * This method is used to import the data from the Excel file in the Boolean form
@@ -69,12 +69,12 @@ public class ExcelUtil {
 	 * @return data return the value present in the excel
 	 * @throws Exception
 	 */
-	public double excelNumericFile(String sheetName,int rowNumber,int cellNumber) throws Exception {
+	public int excelNumericFile(String sheetName,int rowNumber,int cellNumber) throws Exception {
 		File abPath =new File(IAutoConstants.EXCEL_PATH);
 		FileInputStream fis=new FileInputStream(abPath);
 		Workbook workbook = WorkbookFactory.create(fis);
 		Sheet sheet = workbook.getSheet(sheetName);
-		double data = sheet.getRow(rowNumber).getCell(cellNumber).getNumericCellValue();
+		int data = (int) sheet.getRow(rowNumber).getCell(cellNumber).getNumericCellValue();
 		return data;
 	}
 }
